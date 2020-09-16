@@ -11,8 +11,9 @@ min c^Tx
 s.t A_I * x <= b_I
     A_E * x <= b_E       (P)
     x[nb] >= 0
-
+    
 A_I: m_I x n, A_E: m_E x n.
+
 ===============================================================================
 
 Let dir_name denote the PATH_TO_ROOT_WHERE_THIS_README_FILE_IS.
