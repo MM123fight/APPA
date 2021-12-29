@@ -2,6 +2,7 @@
 #
 
 #download the files
+mkdir dataSet
 cd ./dataSet
 
 mkdir real-sim
@@ -35,7 +36,7 @@ mkdir SVMtoLP
 cd ..
 
 #compile
-cd ../Problem
+cd ./Problem
 g++ -std=c++11 -o SVMtoLP SVMtoLP.cpp
 
 #generate SVMtoLP problems
